@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albin Sabu</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            ALBIN SABU
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div clas="logo"> ALBIN SABU</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#about" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#about" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#about" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/Albin Sabu.png" alt="profile-pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello ,I'm</p>
+            <h1 class="title">Albin Sabu</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="btn_container">
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Download CV</button>
+            </div>
+            <div id="social-container">
+                <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/albin-sabu-377798230'">
+                <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/albinsabu2023'">
+                <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/albin-sabu-377798230'">
+
+            </div>
+        </div> 
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
